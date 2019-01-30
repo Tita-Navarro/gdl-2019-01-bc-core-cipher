@@ -10,28 +10,47 @@
 </head>
 
 
-<body id="background">
+<body>
 	<div id="container">
 	<center>
     <div>
     <h1 class="main-title">Secret Friendly Messages</h1>
-  <div>
+  <div id="startScreen">
     <img id="logo" src="https://static1.squarespace.com/static/52cedecfe4b0df4f2bf70d44/t/560d82a3e4b01c603e127654/1443725991007/Secret+messages?format=1500w">
     <p style="font-size: .65em"> v1.0 <strong> by Castelnav</strong> </br> Laboratoria GDL 2019 </p>
     <h2 class="instructions">Instrucciones</h2>
-    <p class="content" style="font-size: medium">-Crea y regala un mensaje como regalo original. <br> 
+    <p class="content" style="font-size: medium">-Crea y regala un mensaje como detalle original. <br> 
     -Puedes darlo a tu mejor amigo, familiar, pareja. <br> - Elige un nro (1-33), escribe tu mensaje y regala.<br>
   <strong>"Te dieron un mensaje aquí lo puedes descifrar"</strong></p>
-  <button id="seconDiv" onclick="clickLoginButton()">→</button> <br>
+  <button id="start" onclick="start()">→</button> <br>
   <h3 class="next">¡Vamos a crear un mensaje!</h3>
 </div>
 
-<div id="program">
-
+<div id="program" hidden>
+<h2>Escribe un número de 1 a 33</h2> <input class="key" id="moves">
+  <h2 id="msj">Escribe aquí tu mensaje</h2> <br>
+<textarea rows="10" cols="100" id="message" size="45"> </textarea> <br> <br>
+<button id="encode" class="button-withmargin" onclick="encode()">Cifrar </button>                  
+<button id="decode" class="button-withmargin" onclick="decode()">Descifrar</button> <br>
+</div>
+<div id="show" hidden>
+  <h2 class="format">♥Este es tu mensaje ♥</h2>
+<p class="area" rows="10" cols="100" id="result">Aquí aparecerá el resultado</p> <br>
+<br>
+</div>
+<div id="playAgain" hidden>
+  <h2 class="instructions">¿Quieres escribir otro mensaje?</h2>
+  <button id="newMessage" class="button-withmargin" onclick="newMessage()">Sí ☻</button>
+  <button id="byeMessage" class="button-withmargin" onclick="byeMessage()">No</button>
+</div>
+<div id="comeBackSoon" hidden>
+<img id="byeGif" src="https://ugc.kn3.net/i/origin/http://i.imgur.com/Cdx3hmQ.gif">
 </div>
 </center>
 </div>
 </div>
+</div>
 <script src="cipher.js"></script>
   <script src= "index.js"></script>
+  </body>
 </html>
