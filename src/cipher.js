@@ -20,7 +20,7 @@ const decode=(offset, string)=>{
 
   for (var i=0; i<string.length; i++){ //contador para descifrar
     let letra= string.charCodeAt(i); //cada letra en código ASCII
-    let letraDescifrada = (letra - 65 - offset)%26 + 65; // descifra cada letra del string en ASCII
+    let letraDescifrada = (letra + 65 - offset)%26 + 65; // descifra cada letra del string en ASCII
 
     strDescifrado.push(String.fromCharCode(letraDescifrada));
   }
