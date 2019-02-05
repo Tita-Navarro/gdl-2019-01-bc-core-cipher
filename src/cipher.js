@@ -11,7 +11,7 @@ const encode=(offset, string)=>{
 
   const output = strCifrado.join ('');
   return output;
-}
+};
 
 //termina funcion cifrado/encriptado
 
@@ -26,7 +26,7 @@ const decode=(offset, string)=>{
   }
   const output= strDescifrado.join ('');
   return output;
-}
+};
 window.cipher = {
   encode: encode,
   decode: decode,

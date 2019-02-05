@@ -17,6 +17,7 @@ img#logo {
     border: 10px solid rgb(31, 158, 231);
 }
 h1.main-title {
+	display: block;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 	font-size: 75px; 
     font-weight: 400;
@@ -25,11 +26,11 @@ h1.main-title {
 }
 p.content {
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 15px;
+font-size: 25px;
 }
 h2.instructions {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-	font-size: 45px; 
+	font-size: 60px; 
     font-weight: 400;
 	line-height: auto;
 	text-align: center;
@@ -85,6 +86,10 @@ p.area {
 	margin-right: 75px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	color: gray;
 	
+	
+}
+h3.next{
+	font-size: 40px;
+
 }
