@@ -23,9 +23,9 @@ document.getElementById("cifrar").addEventListener("click", cifrar);
 
 //función para nuevo mensaje
 const newMessage=()=>{
-    message.value="";
-    result.value="";
-    moves.value="";
+    document.getElementById("moves").value="";
+    document.getElementById("message").value="";
+    document.getElementById("result").textContent="";
 };
 document.getElementById("newMessage").addEventListener("click", newMessage);
 
