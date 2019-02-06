@@ -26,7 +26,7 @@ botón para que el usuario comience a crear o descifrar mensajes.
 ![Imágenes para prototipado](https://github.com/Tita-Navarro/gdl-2019-01-bc-core-cipher/blob/master/images/prototipado2.jpeg)
 
 *Si el usuario dice que no, se presenta la ventana de agradecimiento y se le invita a que vuelva pronto e invite a más personas a cifrar y descifrar mensajes.
-
+![imagen final de tercera pantalla prototipado](https://github.com/Tita-Navarro/gdl-2019-01-bc-core-cipher/blob/master/images/prototipado2.jpeg)
 ## ¿Qué vamos a utilizar?
 
 *Cifrar el string según el algoritmo de Cifrado César. Formula: (x + n) % 26) con el parámetro de desplazamiento de 33 espacios hacia la derecha.
