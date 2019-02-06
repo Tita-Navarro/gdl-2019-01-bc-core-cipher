@@ -23,6 +23,7 @@ botón para que el usuario comience a crear o descifrar mensajes.
 *La siguiente pantalla tiene una caja para introducir el mensaje. El usuario tiene 2 botones uno para cifrar o descifrar el mensaje que ha escrito.
 
 *Al terminar el usuario, se le da la opción de si quiere cifrar o descifrar un mensaje nuevo. Si el usuario quiere crear un nuevo mensaje se limpia todo el texto de la caja.
+![Imágenes para prototipado](https://github.com/Tita-Navarro/gdl-2019-01-bc-core-cipher/blob/master/images/prototipado2.jpeg)
 
 *Si el usuario dice que no, se presenta la ventana de agradecimiento y se le invita a que vuelva pronto e invite a más personas a cifrar y descifrar mensajes.
 
