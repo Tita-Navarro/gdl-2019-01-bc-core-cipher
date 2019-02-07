@@ -85,7 +85,7 @@ textarea#message{
 }
 
 button.button-withmargin {
-	margin: 15px;
+	margin: auto;
 	margin-left: 350px;
 	margin-right: 200px;
 	font-size: 20px;
