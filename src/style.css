@@ -1,4 +1,5 @@
 #container {
+	align-content: center;
 	display: block;
 	background-color: rgb(215, 045, 109);
 	width: 100%;
