@@ -11,7 +11,7 @@
 
 <body> <!--Aquí irá toda nuestra información de la página-->
   <div id="container"> <!--div para todo el contenido del sitio-->
-    <center>
+   
     <h1 class="main-title">Secret Friendly Messages</h1>
   <div id="startScreen"> <!--Primera página del sitio-->
     <img id="logo" alt="welcome" src="https://static1.squarespace.com/static/52cedecfe4b0df4f2bf70d44/t/560d82a3e4b01c603e127654/1443725991007/Secret+messages?format=1500w">
@@ -19,14 +19,14 @@
     <h2 class="instructions">Instrucciones</h2>
     <p class="content">-Crea y regala un mensaje como detalle original. <br> 
     -Puedes darlo a tu mejor amigo, familiar, pareja. <br> - Escribes un nro (desplazamientos para crear tu mensaje). <br>Escribe tu mensaje y regala.<br><br>
-  <strong>"Te dieron un mensaje aquí lo puedes descifrar"</strong></p>
-  <button id="start">→</button> <br> <!--Botón que llama la siguiente parte del sitio-->
+  <strong>"Te dieron un mensaje aquí lo puedes descifrar"</strong>
+  <br><br> <button id="start">→</button></p> <!--Botón que llama la siguiente parte del sitio-->
   <h3 class="next">¡Vamos a crear un mensaje!</h3>
 </div>
 
 <div id="program" hidden> <!--Siguiente página del sitio web que está escondida para ser llamada por un botón-->
-<h2>Escribe un número (desplazamientos)</h2> <input type= "text" id="moves"> <!--Caja para escribir los desplazamientos-->
-  <h2 id="msj">Escribe aquí tu mensaje</h2> <br>
+<h2 class="moves">Escribe un número (desplazamientos) <br> <input type= "text" id="moves"></h2> <!--Caja para escribir los desplazamientos-->
+  <h2 class="moves">Escribe aquí tu mensaje</h2> <br>
 <textarea rows="10" cols="100" id="message"></textarea> <br> <br> <!--Caja de texto para escribir el mensaje-->
 <button id="buttcipher" type="submit" class="button-withmargin">Cifrar </button>                  
 <button id="buttdescipher" type="submit" class="button-withmargin">Descifrar</button> <br> <!--Botones para cifrar o descifrar un mensaje-->
