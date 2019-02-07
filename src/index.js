@@ -7,19 +7,19 @@ const start=()=>{
 };
 document.getElementById("start").addEventListener("click", start);
  //función para llamar el cifrado
-const cifrar=()=>{
+const buttcipher=()=>{
 	let cipherbtt=cipher.encode(parseInt(document.getElementById("moves").value), document.getElementById("message").value);
     document.getElementById('result').innerHTML=cipherbtt;
     return cipherbtt;
 };
-document.getElementById("cifrar").addEventListener("click", cifrar);
+document.getElementById("buttcipher").addEventListener("click", buttcipher);
 
- const descifrar=()=>{
+ const buttdescipher=()=>{
 	let decipherbtt= cipher.decode(parseInt(document.getElementById("moves").value), document.getElementById("message").value);
     document.getElementById('result').innerHTML=decipherbtt;
     return decipherbtt;
 	};
-    document.getElementById("descifrar").addEventListener("click", descifrar);
+    document.getElementById("buttdescipher").addEventListener("click", buttdescipher);
 
 //función para nuevo mensaje
 const newMessage=()=>{
