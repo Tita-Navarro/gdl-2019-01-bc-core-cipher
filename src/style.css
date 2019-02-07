@@ -11,11 +11,14 @@
 }
 img#logo {
     height: auto;
-	text-align: center;
+	align-content: center;
 	width:400px;
     height:400px;
     border-radius:250px;
-    border: 10px solid rgb(31, 158, 231);
+	border: 10px solid rgb(31, 158, 231);
+}
+p.copyright{
+	text-align: center;
 }
 h1.main-title {
 	display: block;
@@ -28,6 +31,7 @@ h1.main-title {
 p.content {
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 25px;
+text-align: center;
 }
 h2.instructions {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
@@ -38,7 +42,8 @@ h2.instructions {
 }
 h3.next {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+	font-size: 25px;
+	text-align: center;
 }
 button#start {
 	height: 60px;
@@ -52,10 +57,12 @@ button#start {
 	font-family: sans-serif;
 	padding: 1px;
 	margin: 10px;
+	text-align: center;
 }
 input#moves {
 	height: 25px;
 	width: 25px;
+	align-content: center;
 }
 h2.format {
 	font-size: 30px; 
@@ -79,7 +86,8 @@ img#byeGif {
 	text-align: center;
 	width:400px;
     height:400px;
-    border-radius:250px;
+	border-radius:250px;
+	align-items: center;
 }
 p.area {
 	background-color: white;
