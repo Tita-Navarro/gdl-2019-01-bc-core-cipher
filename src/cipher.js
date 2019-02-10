@@ -1,30 +1,30 @@
 //función para cifrar/encriptar
 const encode=(offset, string)=>{
-  const strCifrado= []; //arreglo para frase cifrada
+  const strCipher= []; //arreglo para frase cifrada
 
   for (var i=0; i<string.length; i++){ //contador para cifrar
-    let letra= string.charCodeAt(i); //cada letra de la frase en ASCII
-    let letraCifrada = (letra - 65 + offset)%26 + 65; //cifra de cada letra del string en ASCII
+    let char= string.charCodeAt(i); //cada letra de la frase en ASCII
+    let charCipher = (char - 65 + offset)%26 + 65; //cifra de cada letra del string en ASCII
 
-    strCifrado.push(String.fromCharCode(letraCifrada));
+    strCifrado.push(String.fromCharCode(charCipher));
   }
 
-  const output = strCifrado.join ('');
+  const output = strCipher.join ('');
   return output;
 };
 
 //termina funcion cifrado/encriptado
 
 const decode=(offset, string)=>{
-  const strDescifrado= []; //arreglo para frase descifrada
+  const strDescipher= []; //arreglo para frase descifrada
 
   for (var i=0; i<string.length; i++){ //contador para descifrar
-    let letra= string.charCodeAt(i); //cada letra en código ASCII
-    let letraDescifrada = (letra + 65 - offset)%26 + 65; // descifra cada letra del string en ASCII
+    let char= string.charCodeAt(i); //cada letra en código ASCII
+    let charDescipher = (char + 65 - offset)%26 + 65; // descifra cada letra del string en ASCII
 
-    strDescifrado.push(String.fromCharCode(letraDescifrada));
+    strDescifrado.push(String.fromCharCode(charDescipher));
   }
-  const output= strDescifrado.join ('');
+  const output= strDescipher.join ('');
   return output;
 };
 window.cipher = {
