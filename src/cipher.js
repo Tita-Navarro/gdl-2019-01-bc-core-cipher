@@ -9,7 +9,7 @@ const encode=(offset, string)=>{
     strCipher.push(String.fromCharCode(charCipher));
   }
 
-  const output = strCifrado.join ('');
+  const output = strCipher.join ('');
   return output;
 };
 
