@@ -6,7 +6,7 @@ const encode=(offset, string)=>{
     let char= string.charCodeAt(i); //cada letra de la frase en ASCII
     let charCipher = (char - 65 + offset)%26 + 65; //cifra de cada letra del string en ASCII
 
-    strCifrado.push(String.fromCharCode(charCipher));
+    strCipher.push(String.fromCharCode(charCipher));
   }
 
   const output = strCipher.join ('');
