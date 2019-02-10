@@ -22,7 +22,7 @@ const decode=(offset, string)=>{
     let char= string.charCodeAt(i); //cada letra en código ASCII
     let charDescipher = (char + 65 - offset)%26 + 65; // descifra cada letra del string en ASCII
 
-    strDescifrado.push(String.fromCharCode(charDescipher));
+    strDescipher.push(String.fromCharCode(charDescipher));
   }
   const output= strDescipher.join ('');
   return output;
