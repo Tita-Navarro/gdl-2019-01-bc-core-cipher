@@ -1,3 +1,6 @@
+body{
+	font-family: Roboto;
+}
 #container {
 	align-content: center;
 	display: block;
@@ -10,61 +13,70 @@
 	padding-bottom: 30px;
 }
 img#logo {
-    height: auto;
+	height: auto;
+	display: block;
+	margin: auto;
 	align-content: center;
-	width:400px;
-    height:400px;
-    border-radius:250px;
+	width:350px;
+    height:350px;
+    border-radius:200px;
 	border: 10px solid rgb(31, 158, 231);
-	float: center;
+
 }
 p.copyright{
 	text-align: center;
+	font-family: sans-serif;
+	font-style: inherit;
+
 }
 h1.main-title {
 	display: block;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-	font-size: 75px; 
+	font-size: 45px; 
     font-weight: 400;
 	line-height: auto;
 	text-align: center;
 }
 p.content {
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 25px;
+font-size: 15px;
 text-align: center;
 }
 h2.instructions {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-	font-size: 60px; 
+	font-size: 40x; 
     font-weight: 400;
 	line-height: auto;
 	text-align: center;
 }
 h3.next {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: 25px;
 	text-align: center;
+	font-size: 15px;
 }
 button#start {
-	height: 60px;
-	width: 60px;
+	height: 40px;
+	width: 40px;
 	border-radius: 50%;
 	background-color: rgb(31, 158, 231);
 	color: black;
-	font-size: 30px;
+	font-size: 20px;
 	border: solid white;
 	font-weight: 600;
 	font-family: sans-serif;
 	padding: 1px;
-	margin: 10px;
+	margin: auto;
 	text-align: center;
+
+}
+h2.moves{
+	text-align: center;
+	line-height: auto;
 }
 input#moves {
 	height: 25px;
 	width: 25px;
 	align-content: center;
-	vertical-align: 
 }
 h2.format {
 	font-size: 30px; 
@@ -72,36 +84,40 @@ h2.format {
 	line-height: auto;
 	text-align: center;	
 }
+textarea#message{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 button.button-withmargin {
-	margin: 15px;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin: auto;
+	margin-left: 350px;
+	margin-right: 200px;
 	font-size: 20px;
 	height: 50px;
 	width: 100px;
 	background-color: rgb(179, 15, 15);
-	color: black;
+	color: whitesmoke;
 	border: solid rgb(179, 15, 15);
+	
 }
 img#byeGif {
+	display: block;
+	margin: auto;
 	height: auto;
 	text-align: center;
-	width:400px;
-    height:400px;
-	border-radius:250px;
+	width:500px;
+    height:500px;
+	border-radius:300px;
 	align-items: center;
+	float: center;
 }
 p.area {
-	background-color: white;
+	background-color: rgb(215, 045, 109);
 	margin-left: 75px;
 	margin-right: 75px;
 	margin-top: 15px;
 	margin-bottom: 15px;
   text-align: center;
-	
-	
-}
-h3.next{
-	font-size: 40px;
-
 }
