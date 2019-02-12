@@ -92,6 +92,7 @@ textarea#message{
 
 button.button-withmargin {
 	margin: auto;
+<<<<<<< HEAD
 	margin-left: 405px;
 	margin-right: 50px;
 	font-size: 20px;
@@ -100,6 +101,16 @@ button.button-withmargin {
 	background-color: rgb(65, 2, 2);
 	color: whitesmoke;
 	border: solid rgb(3, 25, 49);
+=======
+	margin-left: 350px;
+	margin-right: 200px;
+	font-size: 20px;
+	height: 50px;
+	width: 100px;
+	background-color: rgb(179, 15, 15);
+	color: whitesmoke;
+	border: solid rgb(179, 15, 15);
+>>>>>>> 568f87722a2888aa9d272cab03d76f2f702b4265
 	
 }
 img#byeGif {
@@ -121,9 +132,13 @@ p.area {
 	margin-bottom: 15px;
   text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 =======
 >>>>>>> 4416efafcd5d8223d392cd177d7651123e2a1d12
 }
 
 
+=======
+}
+>>>>>>> 568f87722a2888aa9d272cab03d76f2f702b4265

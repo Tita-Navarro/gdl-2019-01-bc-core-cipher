@@ -1,6 +1,10 @@
 //función para cifrar/encriptar
 const encode=(offset, string)=>{
+<<<<<<< HEAD
   const strCipher= [];
+=======
+  const strCipher= []; //arreglo para frase cifrada
+>>>>>>> 568f87722a2888aa9d272cab03d76f2f702b4265
 
   for (var i=0; i<string.length; i++){ //contador para cifrar
     let char= string.charCodeAt(i); //cada letra de la frase en ASCII
