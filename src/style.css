@@ -1,8 +1,8 @@
 body{
 	font-family: Roboto;
+	box-sizing: 100%;
 }
 #container {
-	align-content: center;
 	display: block;
 	background-image: url(https://raw.githubusercontent.com/Tita-Navarro/gdl-2019-01-bc-core-cipher/master/images/fondo-del-texto-del-vintage-con-el-marco-floral-27881012.jpg);
 	width: 100%;
@@ -20,13 +20,15 @@ img#logo {
 	width:250px;
     height:250px;
     border-radius:150px;
-	border: 10px solid rgb(215, 045, 139);
+	border: 10px transparent;
+	background-color: transparent;
 
 }
 p.copyright{
 	text-align: center;
 	font-family: sans-serif;
 	font-style: inherit;
+	background-color: white transparent;
 
 }
 h1.main-title {
@@ -38,9 +40,11 @@ h1.main-title {
 	text-align: center;
 }
 p.content {
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 15px;
-text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 15px;
+	text-align: center;
+	background-color: transparent;
+	background-image: none;
 }
 h2.instructions {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
@@ -92,7 +96,6 @@ textarea#message{
 
 button.button-withmargin {
 	margin: auto;
-<<<<<<< HEAD
 	margin-left: 405px;
 	margin-right: 50px;
 	font-size: 20px;
@@ -101,16 +104,6 @@ button.button-withmargin {
 	background-color: rgb(65, 2, 2);
 	color: whitesmoke;
 	border: solid rgb(3, 25, 49);
-=======
-	margin-left: 350px;
-	margin-right: 200px;
-	font-size: 20px;
-	height: 50px;
-	width: 100px;
-	background-color: rgb(179, 15, 15);
-	color: whitesmoke;
-	border: solid rgb(179, 15, 15);
->>>>>>> 568f87722a2888aa9d272cab03d76f2f702b4265
 	
 }
 img#byeGif {
@@ -125,20 +118,9 @@ img#byeGif {
 	float: center;
 }
 p.area {
-	background-color: rgb(215, 045, 109);
+	background-color: white;
 	margin-left: 75px;
 	margin-right: 75px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-  text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	
-=======
->>>>>>> 4416efafcd5d8223d392cd177d7651123e2a1d12
-}
-
-
-=======
-}
->>>>>>> 568f87722a2888aa9d272cab03d76f2f702b4265
+    text-align: center;
