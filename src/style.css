@@ -22,7 +22,12 @@ img#logo {
     border-radius:150px;
 	border: 10px transparent;
 	background-color: transparent;
-
+  }
+img.title{
+	height:auto;
+	display: block;
+	margin: auto;
+	margin-left: 275px;
 }
 p.copyright{
 	text-align: center;
