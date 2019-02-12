@@ -6,20 +6,26 @@ const encode=(offset, string)=>{
   for (let i=0; i<string.length; i++){ //contador para cifrar
     let char= string.charCodeAt(i); //cada letra de la frase en ASCII
     
+    if(char>=32 && char<=64){
+      charCipher=(char -25 + offset)%33+32;
+      strCipher.push(String.fromCharCode(charCipher));
+    }
 
-    if (char>=65 && char<=90){ //fórmula para mayúsculas
+    else if (char>=65 && char<=90){ //fórmula para mayúsculas
      charCipher = (char - 65 + offset)%26 + 65; //cifra de cada letra del string en ASCII
      strCipher.push(String.fromCharCode(charCipher));
      console.log(strCipher.push);
     }
+    
     else if (char>=97 && char <=122) { //fórmula para minúsculas
         charCipher= (char - 97 + offset)%26 + 97;
         strCipher.push(String.fromCharCode(charCipher));
       }
-    else{
-      strCipher.push(String.fromCharCode(charCipher));
+      else{
+        alert('No es un carácter válido');
+      }
+
     }
-  }
     return strCipher.join ('');
 
 };
@@ -33,8 +39,12 @@ const decode=(offset, string)=>{
   for (let i=0; i<string.length; i++){ //contador para cifrar
     let char= string.charCodeAt(i); //cada letra de la frase en ASCII
     
+    if (char<=32 && char>=64){
+      charDescipher= (char-6-offset)%33+32;
+      strDescipher.push(String.fromCharCode(charDescipher));
+    }
 
-    if (char>=65 && char<=90){ //fórmula para mayúsculas
+    else if (char>=65 && char<=90){ //fórmula para mayúsculas
      charDescipher = (char + 65 - offset)%26 + 65; //cifra de cada letra del string en ASCII
      strDescipher.push(String.fromCharCode(charDescipher));
      
@@ -43,10 +53,11 @@ const decode=(offset, string)=>{
         charDescipher= (char + 59 - offset)%26 + 97;
         strDescipher.push(String.fromCharCode(charDescipher));
       }
-    else  {
-      return strDescipher.push(String.fromCharCode(charDescipher));
+    else   {
+      alert('Es un carácter no válido');
     }
-   }
+
+    }
     return strDescipher.join ('');
 
 };
