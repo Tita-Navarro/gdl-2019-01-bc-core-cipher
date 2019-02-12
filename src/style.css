@@ -4,7 +4,7 @@ body{
 #container {
 	align-content: center;
 	display: block;
-	background-color: rgb(215, 045, 109);
+	background-color: rgb(215, 45, 139);
 	width: 100%;
 	height: 100%;
 	left: 0;
@@ -17,10 +17,10 @@ img#logo {
 	display: block;
 	margin: auto;
 	align-content: center;
-	width:350px;
-    height:350px;
-    border-radius:200px;
-	border: 10px solid rgb(31, 158, 231);
+	width:250px;
+    height:250px;
+    border-radius:150px;
+	border: 10px solid rgb(215, 045, 139);
 
 }
 p.copyright{
@@ -92,14 +92,14 @@ textarea#message{
 
 button.button-withmargin {
 	margin: auto;
-	margin-left: 350px;
-	margin-right: 200px;
+	margin-left: 405px;
+	margin-right: 50px;
 	font-size: 20px;
 	height: 50px;
 	width: 100px;
-	background-color: rgb(179, 15, 15);
+	background-color: rgb(65, 2, 2);
 	color: whitesmoke;
-	border: solid rgb(179, 15, 15);
+	border: solid rgb(3, 25, 49);
 	
 }
 img#byeGif {
