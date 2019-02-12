@@ -11,6 +11,13 @@ body{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+img.title{
+	height:auto;
+	display: block;
+	margin: auto;
+	margin-left: 275px;
+  align-content:center;
+}
 img#logo {
 	height: auto;
 	display: block;
@@ -22,19 +29,13 @@ img#logo {
 	border: 10px transparent;
 	background-color: transparent;
   }
-img.title{
-	height:auto;
-	display: block;
-	margin: auto;
-	margin-left: 275px;
-}
 p.copyright{
 	text-align: center;
 	font-family: sans-serif;
 	font-style: inherit;
 	background-color: white transparent;
-
 }
+
 h1.main-title {
 	display: block;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
