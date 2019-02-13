@@ -7,7 +7,7 @@ const encode=(offset, string)=>{
     let char= string.charCodeAt(i); //cada letra de la frase en ASCII
     
     if(char>=32 && char<=64){
-      charCipher=(char -25 + offset)%33+32;
+      charCipher=(char -32 + offset)%33+32;
       strCipher.push(String.fromCharCode(charCipher));
     }
 
@@ -40,7 +40,7 @@ const decode=(offset, string)=>{
     let char= string.charCodeAt(i); //cada letra de la frase en ASCII
     
     if (char<=32 && char>=64){
-      charDescipher= (char-6-offset)%33+32;
+      charDescipher= (char+34-offset)%33+32;
       strDescipher.push(String.fromCharCode(charDescipher));
     }
 
