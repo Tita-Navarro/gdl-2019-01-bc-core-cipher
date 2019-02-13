@@ -17,6 +17,7 @@ img.title{
 	display: block;
 	margin: auto;
 	align-content: center;
+	max-width: 100%;
 }
 img#logo {
 	height: auto;
@@ -28,6 +29,7 @@ img#logo {
     border-radius:150px;
 	border: 10px transparent;
 	background-color: transparent;
+	max-width: 100%;
 
 }
 p.copyright{
@@ -111,6 +113,7 @@ button.button-withmargin {
 	background-color: rgb(65, 2, 2);
 	color: whitesmoke;
 	border: solid rgb(3, 25, 49);
+	max-width: 100%;
 	
 }
 img#byeGif {
@@ -123,6 +126,7 @@ img#byeGif {
 	border-radius:300px;
 	align-items: center;
 	float: center;
+	max-width: 100%;
 }
 p.area {
 	background-color: white;
