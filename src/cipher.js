@@ -56,8 +56,7 @@ const decode=(offset, string)=>{
     else   {
       alert('Es un carácter no válido');
     }
-
-    }
+  }
     return strDescipher.join ('');
 
 };
