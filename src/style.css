@@ -16,7 +16,7 @@ img.title{
 	height:auto;
 	display: block;
 	margin: auto;
-	margin-left: 275px;
+	align-content: center;
 }
 img#logo {
 	height: auto;

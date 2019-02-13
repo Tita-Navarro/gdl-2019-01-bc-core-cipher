@@ -39,7 +39,7 @@ const decode=(offset, string)=>{
   for (let i=0; i<string.length; i++){ //contador para cifrar
     let char= string.charCodeAt(i); //cada letra de la frase en ASCII
     
-    if (char<=32 && char>=64){
+    if (char>=32 && char<=64){
       charDescipher= (char+34-offset)%33+32;
       strDescipher.push(String.fromCharCode(charDescipher));
     }
@@ -54,7 +54,7 @@ const decode=(offset, string)=>{
         strDescipher.push(String.fromCharCode(charDescipher));
       }
     else   {
-      alert('Es un carácter no válido');
+      alert('Es un carácter no válido '+ char);
     }
   }
     return strDescipher.join ('');
